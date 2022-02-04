@@ -13,6 +13,7 @@ body {
     rgba(0, 0, 0, 0.8) 100%
   );
   background: rgba(0, 0, 0, 0.4);
+  width: 100% !important;
 }
 .but-top-right {
   position: relative;
@@ -31,12 +32,14 @@ body {
   font-family: "Ubuntu", sans-serif;
   width: 50%;
   line-height: 130%;
+  margin-right: 0% !important;
 }
 .f-2 {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
   margin-right: 50%;
+  margin-right: 0% !important;
 }
 .f-3 {
   color: white;
@@ -58,7 +61,7 @@ body {
 }
 .email-input {
   margin-top: 15%;
-  width: 40%;
+  width: 50% !important;
   position: relative;
   left: 27%;
   height: 300% !important;
@@ -66,4 +69,38 @@ body {
 .e-input-but {
   background-color: red !important;
   color: white;
+}
+.borderline {
+  background-color: grey;
+  height: 9px;
+  border-color: black;
+  width: 100% !important;
+}
+.bl1 {
+  margin-top: 245px;
+}
+.d1 {
+  height: 500px;
+}
+.f-4 {
+  color: white;
+}
+.f-2-1 {
+  position: relative;
+  right: 500px;
+}
+.f-2-2 {
+  width: 50%;
+}
+.tv-ph {
+  margin-left: 60%;
+  margin-top: -200px !important;
+}
+.s-2-1 {
+  position: relative;
+  top: 110px;
+}
+.s-2-2 {
+  position: relative;
+  top: 120px;
 }
