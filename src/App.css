@@ -1,5 +1,6 @@
 body {
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 .n-bg {
   position: absolute;
@@ -103,4 +104,24 @@ body {
 .s-2-2 {
   position: relative;
   top: 120px;
+}
+.d2 {
+  height: 600px;
+}
+.f-1-a {
+  color: white;
+  font-size: 70px;
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  line-height: 130%;
+  margin-left: 0% !important;
+}
+.f-2-a {
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+}
+.mac-ph {
+  margin-left: 60%;
+  margin-top: -100px;
 }

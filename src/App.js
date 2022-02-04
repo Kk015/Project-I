@@ -74,6 +74,73 @@ function App() {
         </div>
       </div>
       <div className="borderline bl2"></div>
+      <div className="bg-black d2">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                alt="n-bg"
+                className=""
+                width="600"
+                height="400"
+              />
+            </div>
+            <div class="col">
+              <div className="f-1-a">Download your shows to watch offline.</div>
+              <div className="f-2-a">
+                Save your favourites easily and always have something to watch.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="borderline bl2"></div>
+      <div className="bg-black d2">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div className="f-1 s-2-1">Watch everywhere.</div>
+              <div className="f-2 f-2-2 s-2-2">
+                Stream unlimited movies and TV shows on your phone, tablet,
+                laptop, and TV.
+              </div>
+              <div class="col">
+                <img
+                  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+                  alt="n-bg"
+                  className="mac-ph"
+                  width="600"
+                  height="400"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="borderline bl2"></div>
+      <div className="bg-black d2">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img
+                src="https://occ-0-4345-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf"
+                alt="n-bg"
+                className=""
+                width="600"
+                height="400"
+              />
+            </div>
+            <div class="col">
+              <div className="f-1-a">Create profiles for children.</div>
+              <div className="f-2-a">
+                Send children on adventures with their favourite characters in a
+                space made just for them—free with your membership.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
