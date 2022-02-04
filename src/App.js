@@ -81,7 +81,7 @@ function App() {
               <img
                 src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
                 alt="n-bg"
-                className=""
+                className="st-pic"
                 width="600"
                 height="400"
               />
@@ -126,7 +126,7 @@ function App() {
               <img
                 src="https://occ-0-4345-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf"
                 alt="n-bg"
-                className=""
+                className="st-pic"
                 width="600"
                 height="400"
               />
@@ -140,6 +140,10 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="borderline bl2"></div>
+      <div className="bg-black d3">
+        <div className="f-1">Frequently Asked Questions</div>
       </div>
     </div>
   );
