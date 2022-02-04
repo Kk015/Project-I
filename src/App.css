@@ -6,31 +6,64 @@ body {
   left: 0%;
   top: 0%;
   z-index: -2;
-  background-image: inherit;
-  filter: grayscale(20%);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background: rgba(0, 0, 0, 0.4);
 }
 .but-top-right {
   position: relative;
-  left: 60%;
+  margin-top: 1.5%;
+  left: 80%;
 }
 .section-1 {
   position: relative;
-  left: 23%;
+  left: 27%;
   bottom: -200px;
+  text-align: center;
 }
 .f-1 {
   color: white;
   font-size: 70px;
   font-family: "Ubuntu", sans-serif;
   width: 50%;
+  line-height: 130%;
 }
 .f-2 {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
+  margin-right: 50%;
 }
 .f-3 {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
+  margin-right: 50%;
+  margin-top: 1%;
+}
+.sign-but {
+  background-color: red !important;
+  border: none !important;
+  border-color: white !important;
+  margin-left: 3%;
+}
+.glob-but {
+  color: white !important;
+  background-color: transparent !important;
+  border-color: white !important;
+}
+.email-input {
+  margin-top: 15%;
+  width: 40%;
+  position: relative;
+  left: 27%;
+  height: 300% !important;
+}
+.e-input-but {
+  background-color: red !important;
+  color: white;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Button from "react-bootstrap/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
@@ -19,8 +21,11 @@ function App() {
         height="770"
       />
       <div className="but-top-right">
-        <Button variant="outline-secondary">English</Button>
-        <Button variant="danger">Sign-in</Button>
+        <Button className="glob-but">
+          <FontAwesomeIcon icon={faGlobe} />
+          English
+        </Button>
+        <Button className="sign-but">Sign-in</Button>
       </div>
       <div className="section-1">
         <div className="f-1">Unlimited movies, TV shows and more.</div>
@@ -28,6 +33,22 @@ function App() {
         <div className="f-3">
           Ready to watch? Enter your email to create or restart your membership.
         </div>
+      </div>
+      <div class="input-group  email-input input-group-lg mb-3">
+        <input
+          type="text"
+          class="form-control "
+          placeholder="Email address"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary e-input-but"
+          type="button"
+          id="button-addon2"
+        >
+          Get Started
+        </button>
       </div>
     </div>
   );
