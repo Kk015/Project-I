@@ -135,3 +135,39 @@ body {
 .d3 {
   height: 1000px;
 }
+.accordion-button {
+  margin-right: 0% !important;
+  background-color: rgb(49, 49, 48) !important;
+  color: white !important;
+  font-family: "Ubuntu", sans-serif;
+  height: 90px !important;
+  font-size: 30px !important;
+  margin-bottom: 10px !important;
+}
+
+.accordion {
+  width: 50% !important;
+  margin-left: 25% !important;
+  background-color: rgb(49, 49, 48) !important;
+  border: none !important;
+  margin-bottom: 50px !important;
+  margin-top: 120px !important;
+}
+.accordion-body {
+  background-color: rgb(49, 49, 48) !important;
+  color: white !important;
+  border: none !important;
+  margin-top: 2px !important;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px !important;
+}
+.accordion-item {
+  background-color: black !important;
+}
+.accordion-collapse {
+  margin-bottom: 10px;
+}
+.faq {
+  margin-left: 25% !important;
+  padding-top: 100px !important;
+}
