@@ -4,10 +4,12 @@ import Button from "react-bootstrap/Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import Accordion from "react-bootstrap/Accordion";
+import Navbar from "./Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
