@@ -33,3 +33,27 @@
 
   color: #ffffff;
 }
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  color: black;
+  border-bottom: 3px solid black;
+}
+.post-nav {
+  position: relative;
+  left: 18%;
+  margin-top: -1.5%;
+}
