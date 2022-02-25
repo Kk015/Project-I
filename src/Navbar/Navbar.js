@@ -1,13 +1,16 @@
 import React from "react";
-import bootstrap from "bootstrap";
+import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
+import logo from "../Images/whole.png";
 
-function Navbar() {
+function Navbaro() {
   return (
     <div className="App">
       <Navbar>
         <Container>
-          <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+          <Navbar.Brand href="#home">
+            <img src={logo} alt="logo" />
+          </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text>
@@ -20,4 +23,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbaro;
