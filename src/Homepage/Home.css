@@ -1,0 +1,35 @@
+.Rectangle2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.16)
+    ),
+    url("../Images/Rectangle2.png");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.Rectangle2-txt {
+  position: relative;
+  top: -180px;
+  left: 350px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: white;
+}
+.Rectangle2-txt-2 {
+  position: relative;
+  top: -180px;
+  left: 350px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
