@@ -43,6 +43,8 @@
   position: relative;
   top: 10px;
   color: #000000;
+  display: flex;
+  width: 84%;
 }
 .description-css {
   font-family: IBM Plex Sans;
