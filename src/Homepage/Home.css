@@ -1,0 +1,108 @@
+.Rectangle2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.16)
+    ),
+    url("../Images/Rectangle2.png");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.Rectangle2-txt {
+  position: relative;
+  top: -180px;
+  left: 350px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+
+  color: white;
+}
+.Rectangle2-txt-2 {
+  position: relative;
+  top: -180px;
+  left: 350px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  color: #8a8a8a;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  color: black;
+  border-bottom: 3px solid black;
+}
+.post-nav {
+  position: relative;
+  left: 18%;
+  margin-top: -1.5%;
+}
+.hr-css {
+  position: relative;
+  left: 17%;
+  border-top: 1px solid #8a8a8a;
+  width: 60%;
+  margin-top: 0%;
+}
+.location1 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  position: absolute;
+  bottom: 10%;
+  left: 77%;
+
+  color: #000000;
+}
+.loc-border {
+  width: 15%;
+  position: absolute;
+  bottom: 6%;
+  left: 75%;
+}
+.pen-emoji {
+  background-image: url(../Images/pen.png);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: 10%;
+  left: 89%;
+}
+.loc-emoji {
+  background-image: url(../Images/loc.png);
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  bottom: 10.3%;
+  left: 75%;
+}
+.extra-loc-txt {
+  background-image: url(../Images/Group42.png);
+  width: 240px;
+  height: 34.5px;
+  position: absolute;
+  bottom: 0%;
+  left: 75%;
+}

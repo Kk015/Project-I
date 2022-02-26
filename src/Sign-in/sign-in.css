@@ -1,0 +1,145 @@
+.green-txt-main {
+  position: relative;
+  top: 30%;
+}
+
+.sign-main-div {
+  width: 50%;
+  height: 65%;
+  position: fixed;
+  left: 30%;
+  margin-top: -135%;
+  background-color: white;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.green-div {
+  background: #effff4;
+  border-radius: 8px 8px 0px 0px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  /* identical to box height, or 114% */
+  height: 50px !important;
+  text-align: center;
+
+  color: #008a45;
+}
+.sign-in-photo {
+  background-image: url(../Images/Group3.png);
+  border-image-repeat: no-repeat;
+  width: 70%;
+  height: 300px;
+}
+.heading-div {
+  margin-top: 20px !important;
+  margin-bottom: 15px !important;
+  position: relative;
+  left: 1%;
+}
+.s-heading {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  position: relative;
+  left: 5%;
+
+  color: #000000;
+}
+.s-heading2 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+  left: 40%;
+  position: relative;
+  text-align: right;
+
+  color: #3d3d3d;
+}
+.s-heading3 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  position: relative;
+  left: 41%;
+
+  color: blue !important;
+}
+.text,
+.password,
+.email {
+  background: #f7f8fa;
+  border: 1px solid #d9d9db;
+  box-sizing: border-box;
+  border-radius: 2px 2px 0px 0px;
+  height: 50px;
+  padding-left: 30px;
+}
+.text {
+  width: 50%;
+  height: 50px;
+}
+.password,
+.email {
+  width: 100%;
+}
+.form-div {
+  margin-bottom: 20px !important;
+}
+.create-account {
+  background: #2f6ce5 !important;
+  border-radius: 20px !important;
+  width: 90% !important;
+  margin-top: 3% !important;
+}
+.agreeing-txt {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 145% */
+
+  text-align: right;
+  letter-spacing: -0.008em;
+
+  color: #000000;
+
+  opacity: 0.6;
+  position: relative;
+  left: -18%;
+}
+.google-sign {
+  background-image: url(../Images/Group4.png);
+  width: 90%;
+  height: 40px;
+  margin-top: 3% !important;
+  margin-left: 2%;
+}
+.fb-sign {
+  background-image: url(../Images/Group5.png);
+  width: 90%;
+  height: 40px;
+  margin-top: -3% !important;
+  margin-left: 2%;
+}
+.start-close-sign {
+  background-image: url(../Images/Vector.png);
+  width: 3%;
+  height: 5%;
+  margin-top: -5% !important;
+  margin-left: 100%;
+  color: #000000;
+}
