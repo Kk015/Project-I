@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 function Signin() {
   return (
     <div className="sign-main-div">
+      <Link to="/">
+        {" "}
+        <div className="start-close-sign"></div>;
+      </Link>
       <div className="green-div">
         <span className="green-txt-main">
           Let's learn, share & inspire each other with our passion for computer

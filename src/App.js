@@ -16,7 +16,9 @@ function App() {
           path="/sign-in"
           element={
             <div>
-              <Home /> <Signin />
+              <Home />
+
+              <Signin />
             </div>
           }
         ></Route>
@@ -24,7 +26,9 @@ function App() {
           path="/sign2"
           element={
             <div>
-              <Home /> <Sign2 />
+              <Home />
+
+              <Sign2 />
             </div>
           }
         ></Route>

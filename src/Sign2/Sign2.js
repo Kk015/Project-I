@@ -2,9 +2,13 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../Sign2/Sign2.css";
 import { Link } from "react-router-dom";
+
 function Sign2() {
   return (
     <div className="sign-main-div">
+      <Link to="/">
+        <div className="start-close-sign"></div>
+      </Link>
       <div className="green-div">
         <span className="green-txt-main">
           Let's learn, share & inspire each other with our passion for computer

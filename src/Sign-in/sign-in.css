@@ -135,3 +135,11 @@
   margin-top: -3% !important;
   margin-left: 2%;
 }
+.start-close-sign {
+  background-image: url(../Images/Vector.png);
+  width: 3%;
+  height: 5%;
+  margin-top: -5% !important;
+  margin-left: 100%;
+  color: #000000;
+}
