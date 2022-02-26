@@ -6,11 +6,18 @@ function Entry(props) {
     return (
         <div className="props-border">
             <span > {props.image}<br /></span>
-            <span className="type-css">{props.type}<br /></span>
-            <span className="heading-css">  {props.heading}<br /></span>
-            <span className="description-css">   {props.description}<br /></span>
-            <span className="name-css">   {props.name}<br /></span>
+            <div className="prop-content-padding">
+                <span className="type-css">{props.type}<br /></span>
+                <span className="heading-css">  {props.heading}<br /></span>
+                <span className="description-css">   {props.description}<br /></span>
+                <span className="description-css">   {props.nameimg}</span>
+                <span className="name-css">   {props.name} </span>
 
+            </div>
+            <div className="view-share">
+                <div className="views"></div>
+                <div className="share"></div>
+            </div>
         </div>
     );
 }
@@ -26,6 +33,7 @@ function Homemain() {
                         name={emojiTerm.name}
                         description={emojiTerm.description}
                         heading={emojiTerm.heading}
+                        nameimg={emojiTerm.nameimg}
                     />
                 ))}
             </dl>

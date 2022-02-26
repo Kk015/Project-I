@@ -40,7 +40,8 @@
   font-size: 22px;
   line-height: 134.17%;
   /* or 30px */
-
+  position: relative;
+  top: 10px;
   color: #000000;
 }
 .description-css {
@@ -50,7 +51,8 @@
   font-size: 19px;
   line-height: 134.17%;
   /* or 25px */
-
+  position: relative;
+  top: 10px;
   color: #5c5c5c;
 }
 .name-css {
@@ -59,7 +61,52 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 23px;
+  position: relative;
+  left: 9%;
+  top: -15px;
   /* identical to box height */
 
   color: #000000;
+}
+.N1,
+.N2,
+.N3,
+.N4 {
+  background-image: url(../Images/N1.png);
+  width: 48px;
+  height: 48px;
+  position: relative;
+  top: 10px;
+}
+.N2 {
+  background-image: url(../Images/N2.png);
+}
+.N3 {
+  background-image: url(../Images/N3.png);
+}
+.N4 {
+  background-image: url(../Images/N4.png);
+}
+.prop-content-padding {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+.views {
+  background-image: url(../Images/views.png);
+  width: 95px;
+  height: 18px;
+  position: relative;
+  bottom: -30px;
+}
+.share {
+  background-image: url(../Images/Share.png);
+  width: 42px;
+  height: 36px;
+  position: relative;
+  left: 150%;
+}
+.view-share {
+  position: absolute;
+  margin-left: 65%;
+  margin-top: -9%;
 }
