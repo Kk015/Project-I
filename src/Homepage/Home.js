@@ -24,6 +24,13 @@ function Home() {
           <a href="#about">Job</a>
         </div>
         <hr className="hr-css"></hr>
+        <div>
+          <div className="loc-emoji"></div>
+          <div className="location1"> Noida, India</div>
+          <div className="pen-emoji"></div>
+          <hr className="loc-border" />
+          <div className="extra-loc-txt"></div>
+        </div>
         <Homemain />
       </div>
     </div>

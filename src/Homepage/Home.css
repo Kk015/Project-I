@@ -64,3 +64,45 @@
   width: 60%;
   margin-top: 0%;
 }
+.location1 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  position: absolute;
+  bottom: 10%;
+  left: 77%;
+
+  color: #000000;
+}
+.loc-border {
+  width: 15%;
+  position: absolute;
+  bottom: 6%;
+  left: 75%;
+}
+.pen-emoji {
+  background-image: url(../Images/pen.png);
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: 10%;
+  left: 89%;
+}
+.loc-emoji {
+  background-image: url(../Images/loc.png);
+  width: 16px;
+  height: 17px;
+  position: absolute;
+  bottom: 10.3%;
+  left: 75%;
+}
+.extra-loc-txt {
+  background-image: url(../Images/Group42.png);
+  width: 240px;
+  height: 34.5px;
+  position: absolute;
+  bottom: 0%;
+  left: 75%;
+}
