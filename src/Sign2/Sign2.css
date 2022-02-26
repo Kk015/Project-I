@@ -1,0 +1,15 @@
+.forgot-passwordtxt {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: -0.008em;
+
+  color: #000000;
+  position: relative;
+  left: -110%;
+}
