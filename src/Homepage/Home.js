@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Homemain from "./Home-main";
 
 function Home() {
   return (
@@ -22,6 +23,8 @@ function Home() {
           <a href="#about">Education</a>
           <a href="#about">Job</a>
         </div>
+        <hr className="hr-css"></hr>
+        <Homemain />
       </div>
     </div>
   );

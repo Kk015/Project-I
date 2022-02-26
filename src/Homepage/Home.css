@@ -57,3 +57,10 @@
   left: 18%;
   margin-top: -1.5%;
 }
+.hr-css {
+  position: relative;
+  left: 17%;
+  border-top: 1px solid #8a8a8a;
+  width: 60%;
+  margin-top: 0%;
+}

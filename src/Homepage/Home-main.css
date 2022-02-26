@@ -1,0 +1,65 @@
+.hm1,
+.hm2,
+.hm3 {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+}
+.hm1 {
+  background-image: url("../Images/Rectangle3.png");
+}
+.hm2 {
+  background-image: url("../Images/Rectangle4.png");
+}
+.hm3 {
+  background-image: url("../Images/Rectangle5.png");
+}
+.props-border {
+  position: relative;
+  margin-top: 1%;
+  left: 18%;
+  border-color: #e6e6e6;
+  border-style: inset;
+  border-radius: 4px 4px 0px 0px;
+  padding: 0%;
+  width: 45%;
+}
+.type-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.heading-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+  /* or 30px */
+
+  color: #000000;
+}
+.description-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 134.17%;
+  /* or 25px */
+
+  color: #5c5c5c;
+}
+.name-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #000000;
+}
