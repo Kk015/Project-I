@@ -1,13 +1,15 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Homemain from "../Homepage/Home-main";
 import Homemain2 from "./Home2main";
 import "./Home2.css";
+import Rectangle2 from "../Images/Rectangle2.png";
 
 function Home2() {
   return (
     <div>
       <div>
-        <div className="Rectangle2"></div>
+        <img src={Rectangle2} className="Rectangle2" />
         <span className="Rectangle2-txt">
           Computer Engineering <br />
         </span>

@@ -1,12 +1,14 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Home.css";
 import Homemain from "./Home-main";
+import Rectangle2 from "../Images/Rectangle2.png";
 
 function Home() {
   return (
     <div>
       <div>
-        <div className="Rectangle2"></div>
+        <img src={Rectangle2} className="Rectangle2" />
         <span className="Rectangle2-txt">
           Computer Engineering <br />
         </span>
@@ -28,7 +30,7 @@ function Home() {
           <div className="joingrp"></div>
         </div>
         <hr className="hr-css"></hr>
-        <div>
+        <div className="ex-3">
           <div className="loc-emoji"></div>
           <div className="location1"> Noida, India</div>
           <div className="pen-emoji"></div>
