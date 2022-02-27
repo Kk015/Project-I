@@ -144,3 +144,26 @@
   position: relative;
   top: -40px;
 }
+.dropdown-toggle .btn {
+  visibility: hidden !important;
+}
+.dropdown-toggle::after {
+  content: none !important;
+  border: none !important;
+}
+.share1 {
+  position: relative;
+  left: 90%;
+  bottom: 40px;
+  background-color: none !important;
+  color: white !important;
+  border: none !important;
+}
+.dropdown-toggle {
+  color: none !important;
+  background-color: white !important;
+}
+.btn-primary {
+  color: none !important;
+  background-color: white !important;
+}
