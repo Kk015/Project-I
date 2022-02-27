@@ -85,9 +85,13 @@
 }
 .N3 {
   background-image: url(../Images/N3.png);
+  position: relative;
+  top: 70px;
 }
 .N4 {
   background-image: url(../Images/N4.png);
+  position: relative;
+  top: 70px;
 }
 .prop-content-padding {
   padding: 20px;
@@ -111,4 +115,32 @@
   position: absolute;
   margin-left: 65%;
   margin-top: -9%;
+}
+.l1 {
+  background-image: url(../Images/Group100.png);
+  width: 358px;
+  height: 20px;
+}
+.l2 {
+  background-image: url(../Images/Group103.png);
+  width: 358px;
+  height: 20px;
+}
+.s1 {
+  background-image: url(../Images/Group101.png);
+  width: 652px;
+  height: 38px;
+}
+.s2 {
+  background-image: url(../Images/Group104.png);
+  width: 651px;
+  height: 37px;
+}
+.loc-img {
+  position: relative;
+  top: -50px;
+}
+.stamp {
+  position: relative;
+  top: -40px;
 }

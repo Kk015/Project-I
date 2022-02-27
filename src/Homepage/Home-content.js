@@ -27,6 +27,8 @@ const emojipedia = [
     name: "Ronal Jones",
     heading: "Finance & Investment Elite Social Mixer @Lujiazui",
     nameimg: <div className="N3"></div>,
+    loc: <div className="l1"></div>,
+    stamp: <div className="s1"></div>,
   },
   {
     id: 4,
@@ -34,6 +36,8 @@ const emojipedia = [
     name: "Joseph Gray",
     heading: "Software Developer",
     nameimg: <div className="N4"></div>,
+    loc: <div className="l2"></div>,
+    stamp: <div className="s2"></div>,
   },
 ];
 

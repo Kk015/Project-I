@@ -11,6 +11,8 @@ function Entry(props) {
                 <span className="heading-css">  {props.heading}<br /></span>
                 <span className="description-css">   {props.description}<br /></span>
                 <span className="description-css">   {props.nameimg}</span>
+                <span className="loc-img">   {props.loc}</span>
+                <span className="stamp">   {props.stamp}</span>
                 <span className="name-css">   {props.name} </span>
 
             </div>
@@ -34,6 +36,8 @@ function Homemain() {
                         description={emojiTerm.description}
                         heading={emojiTerm.heading}
                         nameimg={emojiTerm.nameimg}
+                        loc={emojiTerm.loc}
+                        stamp={emojiTerm.stamp}
                     />
                 ))}
             </dl>

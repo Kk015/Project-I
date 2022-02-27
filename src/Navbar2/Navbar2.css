@@ -1,0 +1,17 @@
+.sg-2 {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.n4 {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  left: 83%;
+  top: 20%;
+}

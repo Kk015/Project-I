@@ -23,6 +23,10 @@ function Home() {
           <a href="#about">Education</a>
           <a href="#about">Job</a>
         </div>
+        <div className="changable">
+          <div className="writepost"></div>
+          <div className="joingrp"></div>
+        </div>
         <hr className="hr-css"></hr>
         <div>
           <div className="loc-emoji"></div>

@@ -33,7 +33,9 @@ function Sign2() {
                   placeholder="Password"
                   className="password"
                 />
-                <Button className="create-account">Sign-in </Button>
+                <Link to="/Home2">
+                  <Button className="create-account">Sign-in </Button>
+                </Link>
                 <div className="google-sign"></div>
                 <br />
                 <div className="fb-sign"></div>

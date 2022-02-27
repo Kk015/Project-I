@@ -1,0 +1,16 @@
+.rg-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.right-grp {
+  position: absolute;
+  left: 77%;
+  top: 103%;
+}

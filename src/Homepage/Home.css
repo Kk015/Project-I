@@ -106,3 +106,30 @@
   bottom: 0%;
   left: 75%;
 }
+.writepost {
+  background-image: url(../Images/Group61.png);
+  width: 133px;
+  height: 36px;
+  margin-top: -55%;
+}
+.joingrp {
+  background-image: url(../Images/Group62.png);
+  width: 125px;
+  height: 36px;
+  position: relative;
+  left: 120%;
+  margin-top: -26%;
+}
+.changable {
+  position: absolute;
+  bottom: 18%;
+  left: 70%;
+}
+.leavegrp {
+  background-image: url(../Images/Group63.png);
+  width: 134px;
+  height: 36px;
+  position: relative;
+  left: 120%;
+  margin-top: -26%;
+}

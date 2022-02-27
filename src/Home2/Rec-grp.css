@@ -1,0 +1,50 @@
+.Rectangle66 {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+.heading2-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: #000000;
+  position: relative;
+  left: 12px;
+}
+.follow-css {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+
+  text-align: center;
+  position: relative;
+  left: 8px;
+  color: #000000;
+}
+
+.follow-div {
+  background: #edeef0;
+  border-radius: 14px;
+  position: relative;
+  left: 140px;
+  bottom: 30px;
+  width: 60px;
+  height: 24px;
+}
+.follow-div:hover {
+  background: black;
+}
+.follow-css:hover {
+  color: white;
+}
+.rg-grp {
+  position: relative;
+  margin-top: 22px;
+}
