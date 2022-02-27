@@ -1,4 +1,4 @@
-# netflix-clone
+# Project-I
 DOWNLOAD THE CODE FROM GITHUB 
 OPEN THE CODE IN VSCODE/ATOM
 RUN A NPM COMMAND ==> "npm start"
